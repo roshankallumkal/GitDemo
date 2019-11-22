@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [USXS Sanity Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Create a Client(failed)">
+    <classes>
+      <class name="com.usxs.testcases.CreateClient">
+        <methods>
+          <include name="createclient" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="teatDown"/>
+        </methods>
+      </class> <!-- com.usxs.testcases.CreateClient -->
+    </classes>
+  </test> <!-- Create a Client(failed) -->
+</suite> <!-- Failed suite [USXS Sanity Suite] -->

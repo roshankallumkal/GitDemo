@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Super Admin login"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.000">
+  <properties />
+  
+            <testcase name="login_as_super_admin" time="0.0" classname="com.usxs.testcases.Login">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

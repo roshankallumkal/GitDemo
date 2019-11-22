@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [USXS Sanity Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.usxs.listeners.Customlisteners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Super Admin login(failed)">
+    <classes>
+      <class name="com.usxs.testcases.Login">
+        <methods>
+          <include name="login_as_super_admin"/>
+          <include name="setUp"/>
+          <include name="teatDown"/>
+        </methods>
+      </class> <!-- com.usxs.testcases.Login -->
+    </classes>
+  </test> <!-- Super Admin login(failed) -->
+  <test thread-count="5" verbose="0" name="Navigate to User Profile(failed)">
+    <classes>
+      <class name="com.usxs.testcases.UserProfile">
+        <methods>
+          <include name="setUp"/>
+          <include name="userprofile"/>
+          <include name="teatDown"/>
+        </methods>
+      </class> <!-- com.usxs.testcases.UserProfile -->
+    </classes>
+  </test> <!-- Navigate to User Profile(failed) -->
+  <test thread-count="5" verbose="0" name="Create a Client(failed)">
+    <classes>
+      <class name="com.usxs.testcases.CreateClient">
+        <methods>
+          <include name="createclient"/>
+          <include name="setUp"/>
+          <include name="teatDown"/>
+        </methods>
+      </class> <!-- com.usxs.testcases.CreateClient -->
+    </classes>
+  </test> <!-- Create a Client(failed) -->
+</suite> <!-- Failed suite [USXS Sanity Suite] -->

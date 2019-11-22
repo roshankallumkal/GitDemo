@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Navigate to User Profile"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.000">
+  <properties />
+  
+            <testcase name="userprofile" time="0.0" classname="com.usxs.testcases.UserProfile">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

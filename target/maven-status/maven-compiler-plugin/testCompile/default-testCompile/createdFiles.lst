@@ -1,0 +1,13 @@
+com\usxs\testcases\UserProfile.class
+com\usxs\utilities\MonitoringMail.class
+com\usxs\testcases\CreateClient.class
+com\usxs\listeners\Customlisteners.class
+com\usxs\notebook\TestHostAdd.class
+com\usxs\base\TestBase.class
+com\usxs\notebook\For_Prop.class
+com\usxs\utilities\MonitoringMail$SMTPAuthenticator.class
+com\usxs\utilities\TestConfig.class
+com\usxs\utilities\MonitoringMail$1.class
+com\usxs\utilities\ExcelReader.class
+com\usxs\utilities\Testutil.class
+com\usxs\testcases\Login.class

@@ -16,6 +16,8 @@ public class Login extends TestBase {
 	public void login_as_super_admin(String username,String password) throws InterruptedException{
 		
 		
+		System.out.println("gitdemo x");
+		
 		//Assert Title USXS 2.0 
 		Assert.assertTrue(IsElementPresent(By.xpath(Obj_repo.getProperty("pagetitle"))),"Login page is not loaded");
 		log.debug("Inside log in module");

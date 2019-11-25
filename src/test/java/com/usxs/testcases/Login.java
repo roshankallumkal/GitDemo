@@ -18,6 +18,7 @@ public class Login extends TestBase {
 		
 		System.out.println("gitdemo x");
 		System.out.println("gitdemo xX");
+		System.out.println("update from gitdemo xxX");
 		
 		//Assert Title USXS 2.0 
 		Assert.assertTrue(IsElementPresent(By.xpath(Obj_repo.getProperty("pagetitle"))),"Login page is not loaded");
